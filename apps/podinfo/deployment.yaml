@@ -23,7 +23,7 @@ spec:
           env:
             # Shown on the podinfo web page: change it in Git and watch Argo CD deploy it.
             - name: PODINFO_UI_MESSAGE
-              value: "Hello from Argo CD"
+              value: "Deployed by Argo CD from Git"
           readinessProbe:
             httpGet:
               path: /readyz
